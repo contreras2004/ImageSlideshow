@@ -77,8 +77,8 @@ public class LabelPageIndicator: UILabel, PageIndicatorView {
         text = "\(page+1)/\(numberOfPages)"
     }
 
-    public override func sizeToFit() {
+    /*public override func sizeToFit() {
         let maximumString = String(repeating: "8", count: numberOfPages) as NSString
         self.frame.size = maximumString.size(withAttributes: [.font: font])
-    }
+    }*/
 }
